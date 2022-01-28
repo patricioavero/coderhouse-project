@@ -1,0 +1,15 @@
+{% extends "./base.html" %}
+
+{% block title %} Members Management {% endblock %}
+
+{% block body %}
+
+<div>
+    <ul>
+        {% for member in members%}
+            #<li>{{member.last_name}}, {{member.first_name}}
+        {% endfor %}
+    </ul>
+</div>
+
+{% endblock %}
