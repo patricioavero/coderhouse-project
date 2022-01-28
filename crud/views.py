@@ -3,8 +3,8 @@ from .models import member
 
 # Create your views here.
 
-def home(request):
-    return render(request, 'home.html')
+def base(request):
+    return render(request, 'base.html')
 
 def members(request):
     r_members_list = member.objects.all()

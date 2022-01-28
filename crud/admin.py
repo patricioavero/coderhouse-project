@@ -1,6 +1,4 @@
-from socketserver import ThreadingTCPServer
 from django.contrib import admin
-
 from crud.models import member, staff, training, user
 
 # Register your models here.
